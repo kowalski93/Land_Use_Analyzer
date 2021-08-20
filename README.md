@@ -65,7 +65,7 @@ We want to calculate the Entropy Index for this feature of the hexagonal grid. T
 FOR EVERY GRID FEATURE:  
     FOR EVERY CODE OF THE CONTAINED LAND USE POLYGONS:  
         CALCULATE THE SUM OF AREA OF THAT CODE  
-        DIVIDE IT BY THE TOTAL AREA OF THE GREAD FEATURE AND ASSIGN IT TO P<sup>j</sup> 
+        DIVIDE IT BY THE TOTAL AREA OF THE GREAD FEATURE AND ASSIGN IT TO Pj 
 ```
 
 After calculating the P<sup>j</sup>s it is easy to calculate the two indices. The only difficulty is to determine the land use polygons that are contained by each grid cell and to sum the areas of each different type. This will require two geoprocessing operations: Intersect and Dissolve. If you are familiar with GIS operations then you already understand why those are needed, but let me make it more clear with anogther figure. 
