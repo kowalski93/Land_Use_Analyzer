@@ -26,7 +26,7 @@ Land Use Analyzer Project 				#The project folder
 |           Neighborhood_Boundaries.shp	
 |           SLUP2019.shp          	
 +---land_use_mix					#The main application folder
-|   |   Land use Analyzer.ipynb	       		
+|   |   Land Use Analyzer.ipynb	       		
 \---temp 						#A folder to store temporary data
 
 ```
