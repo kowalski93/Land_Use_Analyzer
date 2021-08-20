@@ -82,7 +82,7 @@ If you focus on the selected polygon (the yellow), you will see that it has been
 
 The Dissolve will then merge together all the polygons that have the same land use code and the same containing feature code. So, if we have 3 polygons with land use code 3210 and all contained under feature 29, they will become one multipolygon. And if we then calculate the area of that multipolygon, it will be the sum of the area of the code 3210 within feature 29. We divide that number by the area of the grid feature and that gives P<sup>3210</sup>.
 
-In the script, this is done by function intermediate within the class lum. In the same class, the two functions to calculate the two indices (with a few more operations) are defined. The other class of the script, named stats contains some functions for some basic statistics. The following Table summarizes all the available functions. 
+In the script, this is done by function _intermediate_ within the class lum. In the same class, the two functions to calculate the two indices (with a few more operations) are defined. The other class of the script, named stats contains some functions for some basic statistics. The following Table summarizes all the available functions. 
 
 ![image](https://user-images.githubusercontent.com/39091833/126985386-eb1a0c8f-a391-4d68-a783-3a831d287286.png)
 
