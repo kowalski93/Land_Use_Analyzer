@@ -7,7 +7,7 @@ Welcome to Land Use Analyzer, a Python application for spatial analysis of Land 
 
 Land Use mix is an important aspect of Urban Planning and Spatial Planning. For example, policy of mixed land use is considered an important component for promoting walkability in an urban area (Mavoa et. al., 2018) and it is considered to be energy-eficient (Zhang & Zhao, 2017). However, it was observed that no tool has been developed so far on the field of land use mix calculations, neither as standalone, nor as part of existing GIS software.  Land Use Analyzer aims to fill that gap as a simple python script. 
 
-The project has a dependency on [geopandas library](https://geopandas.org). You can check [here](https://geopandas.org/getting_started/install.html) for installation options. The application is given in both .py file and .ipynb, so it should be easy to run also with conda distribution and jupyter notebook. 
+The project has a dependency on [geopandas library](https://geopandas.org). You can check [here](https://geopandas.org/getting_started/install.html) for installation options. The application is in .ipynb file, so it should be easy to run also with conda distribution and jupyter notebook. 
 
 ## Project structure
 The following folder tree summarizes the structure of the project. It mainly consists of the land_use_mix folder, where the python files are. A folder with dummy data is also given; you can test the application  with those sets of data, or you can try with your own. A temp folder is also there to store temporary data that are generated while running the application. 
