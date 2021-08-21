@@ -22,7 +22,7 @@ Land Use Analyzer Project 				#The project folder
 |   |       Coastal_Zones_LC_Vector.shp	
 |   |       Grid.shp	
 |   |       	
-|   \---SLUPShapefiles2019			 	#A LU dataset of San Francisco Center
+|   \---SLUPShapefiles2019			 	#A LU dataset of Saint Luis Center
 |           Neighborhood_Boundaries.shp	
 |           SLUP2019.shp          	
 +---land_use_mix					#The main application folder
@@ -97,7 +97,7 @@ For both classes, the following input must be specified:
 
 ## Example result
 
-In this example, a land use dataset from the center of San Francisco is used, along with a dataset of SF neighborhoods. The entropy index has been calculated for each neihborhood polygon and the more red the color, the higher the entropy.
+In this example, a land use dataset from the center of Saint Luis is used, along with a dataset of SF neighborhoods. The entropy index has been calculated for each neihborhood polygon and the more red the color, the higher the entropy.
 
 ![image](https://user-images.githubusercontent.com/39091833/126985686-d14a6475-1091-40c5-9e72-bc7c08cfded5.png)
 
