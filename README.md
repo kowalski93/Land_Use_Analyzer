@@ -84,7 +84,7 @@ The Dissolve will then merge together all the polygons that have the same land u
 
 In the script, this is done by function _intermediate_ within the class lum. In the same class, the two functions to calculate the two indices (with a few more operations) are defined. The other class of the script, named stats contains some functions for some basic statistics. The following Table summarizes all the available functions. 
 
-![image](https://user-images.githubusercontent.com/39091833/126985386-eb1a0c8f-a391-4d68-a783-3a831d287286.png)
+![image](https://user-images.githubusercontent.com/39091833/145267639-3cf6b8ad-8866-4cea-be35-d433c3022d1b.png)
 
 For both classes, the following input must be specified:
 - A feature dataset for the land use (SLUP2019 in the following Figure)
