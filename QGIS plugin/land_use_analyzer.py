@@ -62,7 +62,7 @@ class LandUseAnalyzerPlugin(object):
 
     def initGui(self):
         self.initProcessing()
-        
+        """
         actionZonal = QAction(
             QIcon(os.path.join(os.path.join(cmd_folder,'landuseanalyzer', 'land_use_mix_logo.png'))),
             u"Zonal Analysis", self.iface.mainWindow())
@@ -73,7 +73,7 @@ class LandUseAnalyzerPlugin(object):
         
         for action in self.actions:
             self.iface.addPluginToMenu(u"&Land Use Analyzer", action)
-            self.iface.addToolBarIcon(action)
+            self.iface.addToolBarIcon(action)"""
 
     def unload(self):
         QgsApplication.processingRegistry().removeProvider(self.provider)
