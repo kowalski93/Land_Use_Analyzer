@@ -1,6 +1,6 @@
 # Land Use Analyzer
 
-A Python application for Land Use/Land Cover spatial analysis.
+A Python application and a QGIS plugin for Land Use/Land Cover spatial analysis.
 
 ## Introduction 
 Welcome to Land Use Analyzer, a Python application for spatial analysis of Land Use and Land Cover data! This project aims to fill in the gap on automatic implementations of some important LULC operations that are not found on most popular GIS software. Specifically, the core part of the application aims to implement indices of Land Use Mix with commonly found literature methods (mainly Entropy Index and Herfindahl–Hirschman Index). This is supplemented by other useful tools, such as extracting statistics and reports about the LULC landscape of an area.
@@ -27,7 +27,9 @@ Land Use Analyzer Project 				#The project folder
 |           SLUP2019.shp          	
 +---land_use_mix					#The main application folder
 |   |   Land Use Analyzer.ipynb	       		
-\---temp 						#A folder to store temporary data
++---temp 						#A folder to store temporary data
++---QGIS plugin                 #The plugin folder. 
+
 
 ```
 ## Background
