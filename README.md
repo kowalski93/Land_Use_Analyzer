@@ -105,6 +105,13 @@ In this example, a land use dataset from the center of Saint Luis is used, along
 
 ![image](https://user-images.githubusercontent.com/39091833/126985792-e174ab43-e8e5-47cf-b471-823d7842526a.png)
 
+## QGIS Plugin
+All of those features have been incorporated into a plugin for QGIS, named Land Use Analyzer. It can be downloaded either from the plugin repository, or (the latest version), from the current repository, under folder “QGIS plugin”. Download the contents of the folder as a .zip file and use the option Install from ZIP from Plugin manager in QGIS.
+Note: The plugin takes some time to be approved in the plugins repository, so for now, only option to install is to download the repository and install from zip. It is advised that you use Refined Github extension for your browser, in order to be able to download a specific folder.
+Once the plugin has been installed, you will see it under the Processing toolbox.
+ 
+The tool “Zonal Analysis” is currently the only tool, but it includes all the analysis methods of the main project, except for the overview report.
+
 ## Literature
 
 Mavoa, S. et al., 2018. Identifying appropriate land-use mix measures for use in a national walkability index. _The Journal of Transport and Land Use_, 11(1), pp. 681-700.
