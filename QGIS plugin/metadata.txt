@@ -13,7 +13,7 @@ email=avoukenas@gmail.com
 about=A plugin for Land Use spatial analysis.
 
 tracker=https://github.com/kowalski93/Land_Use_Analyzer/issues
-repository=https://github.com/kowalski93/Land-use-analyzer-plugin-for-QGIS/tree/main
+repository=https://github.com/kowalski93/Land_Use_Analyzer/tree/main
 # End of mandatory metadata
 
 # Recommended items:
@@ -25,7 +25,7 @@ hasProcessingProvider=yes
 # Tags are comma separated with spaces allowed
 tags=python, land use, entropy, zonal statistics
 
-homepage=https://github.com/kowalski93/Land-use-analyzer-plugin-for-QGIS/tree/main
+homepage=https://github.com/kowalski93/Land_Use_Analyzer/tree/main
 category=Analysis
 icon=logo.png
 # experimental flag
