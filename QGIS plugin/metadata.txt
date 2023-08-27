@@ -13,7 +13,7 @@ email=avoukenas@gmail.com
 about=A plugin for Land Use spatial analysis.
 
 tracker=https://github.com/kowalski93/Land_Use_Analyzer/issues
-repository=https://github.com/kowalski93/Land_Use_Analyzer/tree/main/QGIS%20plugin
+repository=https://github.com/kowalski93/Land-use-analyzer-plugin-for-QGIS/tree/main
 # End of mandatory metadata
 
 # Recommended items:
