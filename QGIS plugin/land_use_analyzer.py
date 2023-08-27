@@ -77,10 +77,12 @@ class LandUseAnalyzerPlugin(object):
 
     def unload(self):
         QgsApplication.processingRegistry().removeProvider(self.provider)
+        """
         for action in self.actions:
             self.iface.removePluginMenu(u"&Land Use Analyzer", action)
             self.iface.removeToolBarIcon(action)
             del action
+         """
         
     def runZonal(runZonal):
         processing.execAlgorithmDialog("Land Use Analyzer:zonal_analysis")
