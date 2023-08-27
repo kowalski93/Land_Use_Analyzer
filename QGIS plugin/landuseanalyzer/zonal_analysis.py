@@ -176,7 +176,7 @@ class ZonalAnalysis(QgsProcessingAlgorithm):
                'FIELD_TYPE':0,
                'FIELD_LENGTH':0,
                'FIELD_PRECISION':0,
-               'FORMULA':'-round(sum(($area/sum($area,\"{0}\"))*ln($area/sum($area,\"{1}\")),\"{2}\")/ln(count_distinct(\"{3}\",\"{4}\")),2)'.format(ZONES_id,ZONES_id,ZONES_id,parameters[self.INPUT_LU_FIELD],ZONES_id),
+               'FORMULA':'0-round(sum(($area/sum($area,\"{0}\"))*ln($area/sum($area,\"{1}\")),\"{2}\")/ln(count_distinct(\"{3}\",\"{4}\")),2)'.format(ZONES_id,ZONES_id,ZONES_id,parameters[self.INPUT_LU_FIELD],ZONES_id),
                'OUTPUT':'TEMPORARY_OUTPUT'},
                context=context,feedback=None)['OUTPUT']
            
