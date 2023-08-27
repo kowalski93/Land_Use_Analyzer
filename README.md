@@ -1,13 +1,13 @@
 # Land Use Analyzer
 
-A Python application for Land Use/Land Cover spatial analysis.
+A Python application and a QGIS plugin for Land Use/Land Cover spatial analysis.
 
 ## Introduction 
 Welcome to Land Use Analyzer, a Python application for spatial analysis of Land Use and Land Cover data! This project aims to fill in the gap on automatic implementations of some important LULC operations that are not found on most popular GIS software. Specifically, the core part of the application aims to implement indices of Land Use Mix with commonly found literature methods (mainly Entropy Index and Herfindahl–Hirschman Index). This is supplemented by other useful tools, such as extracting statistics and reports about the LULC landscape of an area.
 
 Land Use mix is an important aspect of Urban Planning and Spatial Planning. For example, policy of mixed land use is considered an important component for promoting walkability in an urban area (Mavoa et. al., 2018) and it is considered to be energy-eficient (Zhang & Zhao, 2017). However, it was observed that no tool has been developed so far on the field of land use mix calculations, neither as standalone, nor as part of existing GIS software.  Land Use Analyzer aims to fill that gap as a simple python script. 
 
-The project has a dependency on [geopandas library](https://geopandas.org). You can check [here](https://geopandas.org/getting_started/install.html) for installation options. The application is in .ipynb file, so it should be easy to run also with [conda distribution and jupyter notebook](https://jupyter.org/install). 
+The project (but not the plugin) has a dependency on [geopandas library](https://geopandas.org). You can check [here](https://geopandas.org/getting_started/install.html) for installation options. The application is in .ipynb file, so it should be easy to run also with [conda distribution and jupyter notebook](https://jupyter.org/install). 
 
 ## Project structure
 The following folder tree summarizes the structure of the project. It mainly consists of the land_use_mix folder, where the python files are. A folder with dummy data is also given; you can test the application  with those sets of data, or you can try with your own. A temp folder is also there to store temporary data that are generated while running the application. 
@@ -27,7 +27,9 @@ Land Use Analyzer Project 				#The project folder
 |           SLUP2019.shp          	
 +---land_use_mix					#The main application folder
 |   |   Land Use Analyzer.ipynb	       		
-\---temp 						#A folder to store temporary data
++---temp 						#A folder to store temporary data
++---QGIS plugin                 #The plugin folder. 
+
 
 ```
 ## Background
@@ -102,6 +104,18 @@ In this example, a land use dataset from the center of Saint Luis is used, along
 ![image](https://user-images.githubusercontent.com/39091833/126985686-d14a6475-1091-40c5-9e72-bc7c08cfded5.png)
 
 ![image](https://user-images.githubusercontent.com/39091833/126985792-e174ab43-e8e5-47cf-b471-823d7842526a.png)
+
+## QGIS Plugin
+All of those features have been incorporated into a plugin for QGIS, named Land Use Analyzer. It can be downloaded either from the plugin repository, or (the latest version), from the current repository, under folder “QGIS plugin”. Download the contents of the folder as a .zip file and use the option Install from ZIP from Plugin manager in QGIS.
+Note: The plugin takes some time to be approved in the plugins repository, so for now, only option to install is to download the repository and install from zip. It is advised that you use Refined Github extension for your browser, in order to be able to download a specific folder.
+Once the plugin has been installed, you will see it under the Processing toolbox.
+
+![image](https://github.com/kowalski93/Land_Use_Analyzer/assets/39091833/d8822215-7973-4450-9ccf-e01aea3fafaf)
+
+The tool “Zonal Analysis” is currently the only tool, but it includes all the analysis methods of the main project, except for the overview report.
+
+![image](https://github.com/kowalski93/Land_Use_Analyzer/assets/39091833/848feadf-242a-406b-872b-6b847a103d4e)
+![image](https://github.com/kowalski93/Land_Use_Analyzer/assets/39091833/006b2336-5ee1-4679-b7fc-b68d895fc8a1)
 
 ## Literature
 
