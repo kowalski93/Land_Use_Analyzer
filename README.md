@@ -106,8 +106,8 @@ In this example, a land use dataset from the center of Saint Luis is used, along
 ![image](https://user-images.githubusercontent.com/39091833/126985792-e174ab43-e8e5-47cf-b471-823d7842526a.png)
 
 ## QGIS Plugin
-All of those features have been incorporated into a plugin for QGIS, named Land Use Analyzer. It can be downloaded either from the plugin repository, or (the latest version), from the current repository, under folder “QGIS plugin”. Download the contents of the folder as a .zip file and use the option Install from ZIP from Plugin manager in QGIS.
-Note: The plugin takes some time to be approved in the plugins repository, so for now, only option to install is to download the repository and install from zip. It is advised that you use Refined Github extension for your browser, in order to be able to download a specific folder.
+All of those features have been incorporated into a plugin for QGIS, named Land Use Analyzer. It can be downloaded either from the plugin repository, or (the latest version), from the current repository, under folder “QGIS plugin”. Download the contents of the folder as a .zip file and use the option Install from ZIP from Plugin manager in QGIS.It is advised that you use Refined Github extension for your browser, in order to be able to download a specific folder.
+
 Once the plugin has been installed, you will see it under the Processing toolbox.
 
 ![image](https://github.com/kowalski93/Land_Use_Analyzer/assets/39091833/d8822215-7973-4450-9ccf-e01aea3fafaf)
